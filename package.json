@@ -1,0 +1,23 @@
+{
+  "name": "servidornodejs",
+  "version": "1.0.0",
+  "description": "Sera un server completo en NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SveenGmz/server_completo_Nodejs.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs"
+  ],
+  "author": "Iram Oswaldo Gomez Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SveenGmz/server_completo_Nodejs/issues"
+  },
+  "homepage": "https://github.com/SveenGmz/server_completo_Nodejs#readme"
+}
