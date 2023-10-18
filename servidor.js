@@ -7,7 +7,7 @@ http.createServer(function (request, response) {
 
     var filePath = '.' + request.url;
     if (filePath == './') {
-        filePath = './index.html';
+        filePath = 'PGaleriaR.html/';
     }
     var extname = String(path.extname(filePath)).toLowerCase();
     var contentType = 'text/html';
