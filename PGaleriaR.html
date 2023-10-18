@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrusel</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="background">
+        <div class="carousel">
+            <div id="imagen"></div>
+            <div class="botones">
+                <button id="retroceder" class="circle-button">Ant.</button>
+                <button id="avanzar" class="circle-button">Sig.</button>
+            </div>
+        </div>
+        <div class="controles">
+            <button id="play" onclick="playClicked()">Reprod</button>
+            <button id="stop" style="display: none;" disabled>Pausar</button>
+            <button id="mostrarEnGrande">Ampliar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
