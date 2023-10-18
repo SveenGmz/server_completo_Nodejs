@@ -44,4 +44,3 @@ http.createServer(function (request, response) {
 console.log('Server running at http://192.168.56.1:3000/');//IP de maquina local
 //IP Windows .52 
 //IP Linux .62
-
